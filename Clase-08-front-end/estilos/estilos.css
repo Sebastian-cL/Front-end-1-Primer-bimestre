@@ -1,0 +1,31 @@
+*{box-sizing: border-box;}
+header{
+    background-color:slategrey;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:aliceblue;
+    position: sticky;
+}
+h2{
+    margin: 10px;
+    padding: 10px;
+    background-color: gray;
+    color: aliceblue;
+}
+.personal {
+    margin: 20px;
+    padding: 10px;
+}
+.estudio {
+    margin: 20px;
+    padding: 10px;
+}
+.trabajo {
+    padding: 10px;
+    margin: 20px;
+}
+footer {
+text-align: center;
+padding: 10px;
+margin-top: 70px;
+}
