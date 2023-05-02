@@ -207,6 +207,7 @@ h3 {
     flex-wrap: wrap;
     align-content: flex-start;
     align-items: center;
+    color: #f3f3f3;
 }
 .footer-3 {
     text-align: center;
