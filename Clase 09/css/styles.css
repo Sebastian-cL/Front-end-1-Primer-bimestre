@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+
+.header-container-top {
+  background-color: #222222;
+  color: #f3f3f3;
+  font-size: 10px;
+}
+
+.header-lista {
+  list-style: none;
+}
+
+.header-container-bottom {
+  background-color: #f0a83e;
+}
+
+.logo {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.texto-logo-top {
+  color: #3c2313;
+}
+
+.nav-lista {
+  list-style: none;
+  color: #ffffff;
+  font-size: 13px;
+}
+.container-main-top {
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1fondo.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 500px;
+    position: relative;
+    bottom: 20px;
+}
+.container-bienvenida {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    position: relative;
+    top: 200px;
+    right: 50px;
+    margin: 20px;
+}
+h1{
+    color:  #3C2313;
+    background-color: rgba(255,255,255,0.65);
+    width: 430px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 35px;
+}
+.texto-h1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #3C2313;
+    position: relative;
+    right: 130px;
+    padding: 15px;
+}
+.texto-comederos {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #f0a83e;
+    border-radius: 5px;
+    padding: 15px;
+    position: relative;
+    right: 150px;
+}
+.container-mid-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+}
+.container-mid-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.texto-box {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C2313;
+}
+.precio {
+    color:#f0a83e
+}
+.container-mid-3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #3C2313;
+    margin: 30px;
+}
+.formulario {
+    background: #3C2313;
+    border-radius: 15px;
+    color: #f3f3f3;
+    width: 300px;
+    font-size: 9px;
+    line-height: 11px;
+    padding: 15px;
+    margin: 10px;
+}
+.container-btn {
+    display: flex;
+}
+.btn-reset {
+    background: #8A8787;
+    border-radius: 15px;
+    color: #FFFFFF;
+    padding: 10px;
+    margin: 10px;
+    width: 110px;
+    text-align: center;
+}
+.btn-env {
+    background: #F0A83E;
+    border-radius: 15px;
+    color: #FFFFFF;
+    padding: 10px;
+    margin: 10px;
+    width: 110px;
+    text-align: center;
+}
+.footer-1 {
+    background-color: #F0A83E;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.group-1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.group-2 {
+    display: flex;
+}
+.form {
+    background: #FFFFFF;
+    border-radius: 15px;
+    width: 271px;
+    height: 40px;
+    font-size: 9px;
+}
+.btn-form {
+    background: #3C2313;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF;
+    width: 70px;
+    height: 34px;
+}
+.footer-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3c2313;
+}
+.info-menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+}
+.footer-3 {
+    text-align: center;
+    background-color: #222222;
+    color: #f3f3f3;
+}
